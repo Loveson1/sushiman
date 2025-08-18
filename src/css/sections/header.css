@@ -1,0 +1,154 @@
+/* .header__nav {
+  display: flex;
+  overflow: hidden;
+}
+
+.header__logo {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  position: relative;
+}
+
+.header__logo-overlay {
+  background-color: var(--primary-color);
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  inset: 0;
+}
+
+.header__logo h4 {
+  color: #ffffff;
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-size: larger;
+  font-family: var(--playfair-display);
+}
+
+.header__menu,
+.header__menu-mobile {
+  padding: 20px;
+
+  flex: 1.235;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 64px;
+
+  list-style: none;
+}
+
+.header__menu li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: var(--plus-jakarta-sans);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.header__menu li img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.header__menu-mobile {
+  display: none;
+  gap: 20px;
+  position: relative;
+  cursor: pointer;
+}
+*/
+
+.header__nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.header__logo {
+  flex: 1;
+  display: flex;
+  position: relative;
+  padding: 24px;
+  align-items: center;
+}
+
+.header__logo h4 {
+  padding-left: 24px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: var(--playfair-display);
+}
+
+.header__logo-overlay {
+  position: absolute;
+  background: var(--primary-color);
+  z-index: -1;
+  width: 100%;
+  inset: 0;
+}
+
+.header__menu {
+  padding: 24px;
+  flex: 1.238;
+  display: flex;
+
+  list-style: none;
+  justify-content: flex-end;
+  gap: 84px;
+  align-items: center;
+  font-family: var(--playfair-display);
+  text-transform: uppercase;
+}
+
+.header__menu li:hover {
+  opacity: 0.5;
+}
+
+.header__menu-mobile {
+  display: none;
+  list-style: none;
+  padding: 24px;
+}
+
+.header__sidebar {
+  width: 0px;
+  display: none;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-color: var(--primary-color);
+  padding: 0px;
+  z-index: 10;
+  height: 100%;
+  transition: 1s;
+  overflow: hidden;
+  border-left:  1px solid rgb(225, 225, 225, 0.2);
+}
+
+.header__sidebar li{
+  list-style: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 50px;
+ 
+
+  cursor: pointer;
+
+}
+
+
+.header__sidebar li:hover{
+  opacity: 0.8;
+}
+.header__sidebar img{
+  color: #fff;
+  padding: 15px 0px;
+  left: 0px;
+  
+}
