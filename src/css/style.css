@@ -114,7 +114,10 @@ a {
   .about-us__content {
     padding: 32px;
   }
-  
+  .sushi__title{
+    font-size: 50px;
+    line-height: 70px;
+  }
 }
 /* END: about us media queries */
 
@@ -217,7 +220,7 @@ a {
   }
 
   .subscription h2 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 80px;
   }
 

@@ -38,14 +38,15 @@ gap: 15px;
   flex-wrap: wrap ;
   flex-direction: row;
 
-  cursor: pointer;
+ 
 }
 
 
 .footer__nav li{
     font-size: 16px;
     text-transform: uppercase;
-    font-family: var(--plus-jakarta-sans);
+    font-family: var(--plus-jakarta-sans); 
+    cursor: pointer;
 }
 
 
