@@ -209,6 +209,9 @@ a {
   .popular-foods__card.active-card {
     min-width: 100%;
   }
+  .popular-foods__filters{
+    justify-content: left;
+  }
 }
 /* END: popular media queries */
 
